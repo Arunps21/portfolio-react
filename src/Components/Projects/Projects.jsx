@@ -4,6 +4,10 @@ import ProjectCard from "./ProjectCard";
 // image import
 import Kerala from '../../assets/kerala.png'
 import Food from '../../assets/Food.png'
+import TicTacToe from '../../assets/tictactoe.png'
+import RestProject from '../../assets/RestaurantProject.png'
+import CamerinKids from '../../assets/CamerinKids.png'
+import WeatherDetails from '../../assets/WeatherDetails.png'
 
 const Projects = () => {
   return (
@@ -24,10 +28,34 @@ const Projects = () => {
           code="https://github.com/Arunps21/food-recipes"
           image={Food}
         />
-        {/* <ProjectCard
-          title="Netflix Clone"
+        <ProjectCard
+          title="Tic Tac Toe"
           main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
-        /> */}
+          demo="https://tic-tac-toe-taupe-delta.vercel.app/"
+          code="https://github.com/Arunps21/tic-tac-toe"
+          image={TicTacToe}
+        />
+        <ProjectCard
+          title="Restaurant Project"
+          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
+          demo="https://arunps21.github.io/restaurant-project/"
+          code="https://github.com/Arunps21/restaurant-project"
+          image={RestProject}
+        />
+        <ProjectCard
+          title="Camerin Kids"
+          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
+          demo="https://arunps21.github.io/camerin-kids/"
+          code="https://github.com/Arunps21/camerin-kids"
+          image={CamerinKids}
+        />
+        <ProjectCard
+          title="Weather Details"
+          main="this is a blogging website created this ijsdjf l in next js and used some component library used some component library"
+          demo="https://arunps21.github.io/weather-details/"
+          code="https://github.com/Arunps21/weather-details"
+          image={WeatherDetails}
+        />
       </div>
     </div>
   );
