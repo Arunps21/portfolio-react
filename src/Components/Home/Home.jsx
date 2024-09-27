@@ -1,0 +1,31 @@
+import React from "react";
+import avatarImg from "../../assets/Arun PS.jpg";
+import TextChange from "../TextChange";
+
+const Home = () => {
+  return (
+    <div className="text-white flex w-full justify-between items-start p-10 md:p-20">
+      <div className="md:w-2/4 md:pt-10 ">
+        <h1 className="text-xl md:text-6xl font-bold flex leading-normal tracking-tighter">
+          <TextChange />
+        </h1>
+        <p className="text-sm md:text-2xl tracking-tight ">
+        Aspiring Full-Stack Developer | Learning MERN Stack (MongoDB, Express.js, React, Node.js)
+        </p>
+        <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+          Contact Me
+        </button>
+        <a href="https://drive.google.com/file/d/1PD9P_2vB3TXn6sTBzvCArERefYDpGpxE/view?usp=drive_link">
+        <button className="mt-5 ms-1 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+          Download Resume
+        </button>
+        </a>
+      </div>
+      <div>
+        <img className="" src={avatarImg} alt="" style={{height:"500px"}}/>
+      </div>
+    </div>
+  );
+};
+
+export default Home;
