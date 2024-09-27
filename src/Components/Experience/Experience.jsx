@@ -14,10 +14,13 @@ import Cellar from "../../assets/Cid.png";
 
 const Experience = () => {
   return (
-    <div id="Experience" className="p-10 md:p-24">
-      <h1 className="text-2xl md:text-4xl text-white font-bold">Experience</h1>
-      <div className="flex flex-wrap items-center justify-around">
-        <div className="flex flex-wrap md:w-2/5 gap-8 md:p-12 py-10">
+    <div id="Experience" className="p-4 md:p-12">
+      <h1 className="text-2xl md:text-4xl text-white font-bold mb-8">
+        Experience
+      </h1>
+      <div className="flex flex-col md:flex-row flex-wrap items-center justify-around gap-8">
+        {/* Icons Section */}
+        <div className="flex flex-wrap w-full md:w-2/5 gap-4 md:gap-8 py-6 md:p-8">
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaHtml5 color="#E34F26" size={50} />
           </span>
@@ -43,41 +46,38 @@ const Experience = () => {
             <SiMongodb color="#47A248" size={50} />
           </span> */}
         </div>
-        <div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <img src={CamerinFOlks} alt="" style={{ height: "100px" }} />
-            <span className="text-white">
+
+        {/* Experience Section */}
+        <div className="w-full md:w-3/5">
+          <div className="flex flex-col md:flex-row gap-4 bg-slate-950 bg-opacity-45 rounded-lg p-4 items-center">
+            <img src={CamerinFOlks} alt="Camerin Folks" className="h-24 w-24 object-contain" />
+            <div className="text-white text-center md:text-left">
               <h2 className="leading-tight">Camerin Folks, Kakkanad</h2>
-              <p className="text-sm leading-tight font-thin">
-                June 2024 - Present
-              </p>
-              <ul className="text-sm p-2">
+              <p className="text-sm leading-tight font-thin">June 2024 - Present</p>
+              <ul className="text-sm p-2 list-disc list-inside">
                 <li>
-                  - Enrolled in a comprehensive MERN Stack Web Development
-                  internship program
+                  Enrolled in a comprehensive MERN Stack Web Development internship program
                 </li>
                 <li>
-                  - I gained hands-on experience with Mongo DB, Express Js,
-                  React, and Node.js
+                  Gained hands-on experience with MongoDB, Express.js, React, and Node.js
                 </li>
               </ul>
-            </span>
+            </div>
           </div>
-          <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg  p-4 items-center">
-            <img src={Cellar} alt="" style={{ height: "100px" }} />
-            <span className="text-white">
+
+          <div className="flex flex-col md:flex-row gap-4 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
+            <img src={Cellar} alt="Cellar Developers" className="h-24 w-24 object-contain" />
+            <div className="text-white text-center md:text-left">
               <h2 className="leading-tight">
                 Cellar Innovative Developers, Aluva
               </h2>
-              <p className="text-sm leading-tight font-thin">
-                January 2024 - April 2024
-              </p>
-              <ul className="text-sm p-2">
-                <li>- Enrolled in an immersive React Web Development internship</li>
-                <li>- I gained hands-on experience in developing web applications using React.js</li>
-                <li>- I worked on building reusable components, managing state with React hooks, and integrating APIs for dynamic content</li>
+              <p className="text-sm leading-tight font-thin">January 2024 - April 2024</p>
+              <ul className="text-sm p-2 list-disc list-inside">
+                <li>Enrolled in an immersive React Web Development internship</li>
+                <li>Gained hands-on experience in developing web applications using React.js</li>
+                <li>Built reusable components, managed state with React hooks, and integrated APIs</li>
               </ul>
-            </span>
+            </div>
           </div>
         </div>
       </div>
