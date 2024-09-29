@@ -21,7 +21,7 @@ const About = () => {
                   About Me
                 </h1>
                 <p className="text-sm md:text-md leading-tight">
-                  Greetings! I'm Arun PS I am a recent graduate with a Master's
+                  Greetings! I'm Arun PS. I am a recent graduate with a Master's
                   in Computer Applications (MCA) from MG University. Building on
                   a solid foundation established during my Bachelor of Computer
                   Applications (BCA), I have cultivated expertise in programming
