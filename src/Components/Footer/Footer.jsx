@@ -21,14 +21,18 @@ const Footer = () => {
           <MdOutlineEmail size={20} />
           arunps880@gmail.com
         </li>
-        <li className="flex gap-1 items-center">
-          <CiLinkedin />
-          linkedin.com/in/arun-ps-586874238
-        </li>
-        <li className="flex gap-1 items-center">
-          <FaGithub />
-          github.com/Arunps21
-        </li>
+        <a href="https://www.linkedin.com/in/arun-ps-586874238/">
+          <li className="flex gap-1 items-center">
+            <CiLinkedin />
+            arun-ps-586874238
+          </li>
+        </a>
+        <a href="https://github.com/Arunps21">
+          <li className="flex gap-1 items-center">
+            <FaGithub />
+            Arunps21
+          </li>
+        </a>
       </ul>
     </div>
   );
