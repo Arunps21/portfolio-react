@@ -8,7 +8,7 @@ import {
   FaGithub,
   FaGit,
 } from "react-icons/fa";
-// import { SiMongodb } from "react-icons/si";
+import { SiMongodb, SiExpress, SiNodedotjs } from "react-icons/si";
 import CamerinFOlks from "../../assets/Camerin_folks-removebg.png";
 import Cellar from "../../assets/Cid.png";
 
@@ -42,40 +42,68 @@ const Experience = () => {
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaReact color="#61DAFB" size={50} />
           </span>
-          {/* <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <SiExpress color="#FFFFFF" size={50} /> {/* Express Icon */}
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <SiNodedotjs color="#3C873A" size={50} /> {/* Node.js Icon */}
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiMongodb color="#47A248" size={50} />
-          </span> */}
+          </span>
         </div>
 
         {/* Experience Section */}
         <div className="w-full md:w-3/5">
           <div className="flex flex-col md:flex-row gap-4 bg-slate-950 bg-opacity-45 rounded-lg p-4 items-center">
-            <img src={CamerinFOlks} alt="Camerin Folks" className="h-24 w-24 object-contain" />
+            <img
+              src={CamerinFOlks}
+              alt="Camerin Folks"
+              className="h-24 w-24 object-contain"
+            />
             <div className="text-white text-center md:text-left">
               <h2 className="leading-tight">Camerin Folks, Kakkanad</h2>
-              <p className="text-sm leading-tight font-thin">June 2024 - Present</p>
+              <p className="text-sm leading-tight font-thin">
+                June 2024 - Present
+              </p>
               <ul className="text-sm p-2 list-disc list-inside">
                 <li>
-                  Enrolled in a comprehensive MERN Stack Web Development internship program
+                  Enrolled in a comprehensive MERN Stack Web Development
+                  internship program
                 </li>
                 <li>
-                  Gained hands-on experience with MongoDB, Express.js, React, and Node.js
+                  Gained hands-on experience with MongoDB, Express.js, React,
+                  and Node.js
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="flex flex-col md:flex-row gap-4 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-            <img src={Cellar} alt="Cellar Developers" className="h-24 w-24 object-contain" />
+            <img
+              src={Cellar}
+              alt="Cellar Developers"
+              className="h-24 w-24 object-contain"
+            />
             <div className="text-white text-center md:text-left">
               <h2 className="leading-tight">
                 Cellar Innovative Developers, Aluva
               </h2>
-              <p className="text-sm leading-tight font-thin">January 2024 - April 2024</p>
+              <p className="text-sm leading-tight font-thin">
+                January 2024 - April 2024
+              </p>
               <ul className="text-sm p-2 list-disc list-inside">
-                <li>Enrolled in an immersive React Web Development internship</li>
-                <li>Gained hands-on experience in developing web applications using React.js</li>
-                <li>Built reusable components, managed state with React hooks, and integrated APIs</li>
+                <li>
+                  Enrolled in an immersive React Web Development internship
+                </li>
+                <li>
+                  Gained hands-on experience in developing web applications
+                  using React.js
+                </li>
+                <li>
+                  Built reusable components, managed state with React hooks, and
+                  integrated APIs
+                </li>
               </ul>
             </div>
           </div>
