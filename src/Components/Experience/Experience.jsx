@@ -8,24 +8,31 @@ import {
   FaGithub,
   FaGit,
 } from "react-icons/fa";
-import { SiMongodb, SiExpress, SiNodedotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiMongodb,
+  SiExpress,
+  SiNodedotjs,
+} from "react-icons/si";
 import CamerinFOlks from "../../assets/Camerin_folks-removebg.png";
 import Cellar from "../../assets/Cid.png";
 
 const Experience = () => {
   return (
     <div id="Experience" className="p-4 md:p-12">
-      <h1 className="text-2xl md:text-4xl text-white font-bold mb-8">
+      <h1 className="text-2xl md:text-4xl text-white font-bold mb-8 lg:ml-10">
         Experience
       </h1>
       <div className="flex flex-col md:flex-row flex-wrap items-center justify-around gap-8">
-        {/* Icons Section */}
         <div className="flex flex-wrap w-full md:w-2/5 gap-4 md:gap-8 py-6 md:p-8">
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaHtml5 color="#E34F26" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaCss3 color="#1572B6" size={50} />
+          </span>
+          <span className="p-4 bg-zinc-950 flex items-center justify-center rounded-2xl">
+            <SiTailwindcss className="text-[#06B6D4]" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <FaBootstrap color="#7952B3" size={50} />
@@ -43,17 +50,16 @@ const Experience = () => {
             <FaReact color="#61DAFB" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <SiExpress color="#FFFFFF" size={50} /> {/* Express Icon */}
+            <SiExpress color="#FFFFFF" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <SiNodedotjs color="#3C873A" size={50} /> {/* Node.js Icon */}
+            <SiNodedotjs color="#3C873A" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiMongodb color="#47A248" size={50} />
           </span>
         </div>
 
-        {/* Experience Section */}
         <div className="w-full md:w-3/5">
           <div className="flex flex-col md:flex-row gap-4 bg-slate-950 bg-opacity-45 rounded-lg p-4 items-center">
             <img
