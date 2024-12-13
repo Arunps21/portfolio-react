@@ -10,12 +10,20 @@ import CamerinKids from '../../assets/CamerinKids.png'
 import WeatherDetails from '../../assets/WeatherDetails.png'
 import CountryDetails from '../../assets/CountryDetails.png'
 import Calculator from '../../assets/Calculator.png'
+import Nike from '../../assets/Nike.png'
 
 const Projects = () => {
   return (
     <div id="Projects" className="p-10 md:p-24 text-white ">
       <h1 className="text-2xl md:text-4xl text-white font-bold lg:ml-8">Projects</h1>
       <div className="py-12 px-8 flex flex-wrap gap-5">
+        <ProjectCard
+          title="Nike"
+          main="The Nike website showcases innovative sportswear and accessories, built using HTML, Tailwind CSS, and React for a dynamic, responsive design, ensuring a seamless and interactive user experience across devices."
+          demo="https://nike-react-project-five.vercel.app/"
+          code="https://github.com/Arunps21/nike-react-project"
+          image={Nike}
+        />
         <ProjectCard
           title="Kerala Tourism"
           main="The Kerala Tourism project showcases the natural beauty and cultural heritage of Kerala, built using HTML, CSS, Bootstrap, React, and JavaScript to create a visually appealing and responsive user experience."
