@@ -3,7 +3,7 @@ import React from "react";
 const ProjectCard = ({ title, main, demo, code, image }) => {
   return (
     <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
-      <img className="p-4" src={image} alt="Image not Found" style={{height:"200px"}}/>
+      <img className="p-4 h-[200px]" src={image} alt="Image not Found" />
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}
       </h3>

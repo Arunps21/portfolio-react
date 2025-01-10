@@ -12,18 +12,18 @@ const Home = () => {
         <p className="text-sm md:text-2xl tracking-tight mt-2">
           Full-Stack Developer | MERN Stack (MongoDB, Express.js, React.js, Node.js)
         </p>
-        <button className="mt-5 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+        {/* <button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
           Contact Me
-        </button>
+        </button> */}
         <a href="https://drive.google.com/file/d/1EDHqxJF1yOJsBqduhohDUtya8mX63bt1/view?usp=drive_link">
-          <button className="mt-5 ms-1 md:md-10 text-white py02 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
+          <button className="mt-5 ms-1 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
             Download Resume
           </button>
         </a>
       </div>
       <div className="mt-8 md:mt-0">
         <img
-          className="w-48 h-48 md:w-80 md:h-80 lg:w-[500px] lg:h-[500px] rounded-full object-cover"
+          className="w-56 h-56 md:w-80 md:h-80  rounded-full object-cover"
           src={avatarImg}
           alt="Profile"
         />

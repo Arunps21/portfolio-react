@@ -24,6 +24,11 @@ const Navbar = () => {
             About
           </li>
         </a>
+        <a href="#skills">
+          <li className="text-md transition-all duration-300 p-1 md:p-0">
+            Technical Skills
+          </li>
+        </a>
         <a href="#Experience">
           <li className="text-md transition-all duration-300 p-1 md:p-0">
             Experience
