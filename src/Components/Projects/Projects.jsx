@@ -11,6 +11,7 @@ import WeatherDetails from "../../assets/WeatherDetails.png";
 import CountryDetails from "../../assets/CountryDetails.png";
 import Calculator from "../../assets/Calculator.png";
 import Nike from "../../assets/Nike.png";
+import Flone from "../../assets/flone.png";
 
 const Projects = () => {
   return (
@@ -19,6 +20,13 @@ const Projects = () => {
         Projects
       </h1>
       <div className="py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-4 sm:gap-x-6 md:gap-x-8 lg:gap-x-10 gap-y-4 sm:gap-y-6 md:gap-y-8 lg:gap-y-10 justify-items-center">
+        <ProjectCard
+          title="Flone. - Men's Wear"
+          main="The Flone project is a MERN stack-based e-commerce platform, offering tailored features like item filtering, purchasing options, Razorpay payment integration, and seamless user experiences, beautifully styled with Tailwind CSS."
+          demo="https://flone-frontend.vercel.app/"
+          code="https://github.com/Arunps21/flone-ecommerce"
+          image={Flone}
+        />
         <ProjectCard
           title="Nike"
           main="The Nike website showcases innovative sportswear and accessories, built using HTML, Tailwind CSS, and React for a dynamic, responsive design, ensuring a seamless and interactive user experience across devices."
