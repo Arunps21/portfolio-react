@@ -15,7 +15,7 @@ const Home = () => {
         {/* <button className="mt-5 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
           Contact Me
         </button> */}
-        <a href="https://drive.google.com/file/d/1PD9P_2vB3TXn6sTBzvCArERefYDpGpxE/view?usp=drive_link">
+        <a href="https://drive.google.com/file/d/1IMZSpvce0e77LYNN3YpEqQo7qAadU9cK/view?usp=drive_link">
           <button className="mt-5 ms-1 md:md-10 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 hover:opacity-85 duration-300 hover:scale-105 font-semibold rounded-3xl bg-[#465697]">
             Download Resume
           </button>
