@@ -13,6 +13,10 @@ import {
   SiMongodb,
   SiExpress,
   SiNodedotjs,
+  SiNestjs,
+  SiPostgresql,
+  SiPostman,
+  SiTypescript,
 } from "react-icons/si";
 
 const Skills = () => {
@@ -45,16 +49,30 @@ const Skills = () => {
             <FaJs color="#F7DF1E" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <FaReact color="#61DAFB" size={50} />
+            <SiTypescript color="#3178C6" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
-            <SiExpress color="#FFFFFF" size={50} />
+            <FaReact color="#61DAFB" size={50} />
           </span>
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiNodedotjs color="#3C873A" size={50} />
           </span>
+
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <SiExpress color="#FFFFFF" size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <SiNestjs color="#E0234E" size={50} />
+          </span>
+
           <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
             <SiMongodb color="#47A248" size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <SiPostgresql color="#336791" size={50} />
+          </span>
+          <span className="p-3 bg-zinc-950 flex items-center rounded-2xl">
+            <SiPostman color="#FF6C37" size={50} />
           </span>
         </div>
       </div>{" "}
